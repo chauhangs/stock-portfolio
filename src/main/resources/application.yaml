@@ -1,0 +1,9 @@
+server:
+    port: 9999
+  
+spring:
+    data:
+      mongodb:
+        uri: mongodb://localhost:27017/?readPreference=primary&authSource=admin
+#        uri: mongodb://host.docker.internal:27017/?readPreference=primary&authSource=admin
+        database: stock-portfolio
